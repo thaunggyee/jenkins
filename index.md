@@ -12,6 +12,7 @@
 
 <h2> Installing Jenkins on Ubuntu </h2>
 ```bash
+
 $ wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
 $ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
 $ sudo apt update -y
@@ -19,6 +20,7 @@ $ sudo apt install jenkins -y
 ```
 <p> Jenkins ကို install လုပ်ပြီးသွားရင် service active ဖြစ် မဖြစ် သိရအောင် systemctl နဲ့တစ်ချက်လောက် စစ်ကြည့်ရအောင်</p>
 ```bash
+
 $ sudo systemctl status jenkins.service
 ● jenkins.service - LSB: Start Jenkins at boot time
      Loaded: loaded (/etc/init.d/jenkins; generated)
