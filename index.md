@@ -35,6 +35,7 @@ $ sudo systemctl status jenkins.service
 ဇူ 05 23:32:59 thaunghtikeoo jenkins[1188529]:    ...done.
 ဇူ 05 23:32:59 thaunghtikeoo systemd[1]: Started LSB: Start Jenkins at boot time.
 ```
+<p> Jenkins service က active ဖြစ်နေပြီဆိုတော့ jenkins ဟာ localhost ရဲ့ port 8080 မှာ run နေပြီဖြစ်ပါတယ်။ port number 8080 ကို defautl အနေနဲ့သုံးပါတယ်။ ကျွန်တော်တို့ အနေနဲ့ Jenkins port ပြောင်းချင်ရင်တော့ /etc/default/jenkins မှာ HTTP_PORT variable ကို 
 
 
 
