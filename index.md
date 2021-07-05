@@ -17,6 +17,25 @@ $ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/so
 $ sudo apt update -y
 $ sudo apt install jenkins -y
 ```
+<p> Jenkins ကို install လုပ်ပြီးသွားရင် service active ဖြစ် မဖြစ် သိရအောင် systemctl နဲ့တစ်ချက်လောက် စစ်ကြည့်ရအောင်</p>
+```bash
+$ sudo systemctl status jenkins.service
+● jenkins.service - LSB: Start Jenkins at boot time
+     Loaded: loaded (/etc/init.d/jenkins; generated)
+     Active: active (exited) since Mon 2021-07-05 23:32:59 +0630; 8s ago
+       Docs: man:systemd-sysv-generator(8)
+    Process: 1188529 ExecStart=/etc/init.d/jenkins start (code=exited, status=0/SUCCESS)
+
+ဇူ 05 23:32:58 thaunghtikeoo systemd[1]: Starting LSB: Start Jenkins at boot time...
+ဇူ 05 23:32:58 thaunghtikeoo jenkins[1188529]: Correct java version found
+ဇူ 05 23:32:58 thaunghtikeoo jenkins[1188529]:  * Starting Jenkins Automation Server jenkins
+ဇူ 05 23:32:58 thaunghtikeoo su[1188568]: (to jenkins) root on none
+ဇူ 05 23:32:58 thaunghtikeoo su[1188568]: pam_unix(su-l:session): session opened for user jenkins by (uid=0)
+ဇူ 05 23:32:58 thaunghtikeoo su[1188568]: pam_unix(su-l:session): session closed for user jenkins
+ဇူ 05 23:32:59 thaunghtikeoo jenkins[1188529]:    ...done.
+ဇူ 05 23:32:59 thaunghtikeoo systemd[1]: Started LSB: Start Jenkins at boot time.
+```
+
 
 
 
