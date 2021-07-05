@@ -9,6 +9,17 @@
   <li> Jenkins ကို install လုပ်မယ့် server တစ်လုံးဟာ အနည်းဆုံး RAM 4GB ရှိဖို့တော့လိုပါတယ်</li>
   <li> JDK 11 ကို install လုပ်ထားပေးဖို့လည်း လိုပါတယ်</li>
 </ul>
+
+<h2> Installing Jenkins on Ubuntu </h2>
+```bash
+$ wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+$ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+$ sudo apt update -y
+$ sudo apt install jenkins -y
+```
+
+
+
   
  
 
