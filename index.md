@@ -6,7 +6,7 @@
 
 <h2> Prerequisites </h2>
 <ul>
-  <li> jenkins ကို install လုပ်မယ့် server တစ်လုံးဟာ အနည်းဆုံး RAM 4GB ရှိဖို့တော့လိုပါတယ်</li>
+  <li> Jenkins ကို install လုပ်မယ့် server တစ်လုံးဟာ အနည်းဆုံး RAM 4GB ရှိဖို့တော့လိုပါတယ်</li>
   <li> JDK 11 ကို install လုပ်ထားပေးဖို့လည်း လိုပါတယ်</li>
 </ul>
   
