@@ -1,36 +1,9 @@
 <h1>How To Install Jenkins On Ubuntu 20.04</h1>
-You can use the [editor on GitHub](https://github.com/thaunggyee/jenkins/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<h2> Jenkins မိတ်ဆက် </h2>
+<p> ယနေ့ခေတ်မှာ CI CD နဲ့ ပတ်သက်လို့ tools တွေများစွာကို release လုပ်လာကြပါတယ် ။ အဲ့ထဲ tools တွေထဲကမှ Jenkins , Gitlab CI/CD, Spinnaker, AWS CodeStar နဲ့ Travis CI တို့ဟာ အသုံးအများဆုံး tools တွေပဲဖြစ်တယ်။ ဒါကြောင့် CI CD လို့ ပြောလိုက်တာနဲ့ ကျွန်တော်တို့တွေဟာ Jenkins အကြောင်းကိုမေ့ထားလို့မရပါဘူး။ ဒါကြောင့်ဒီနေ့မှာ ကျွန်တော်တို့ Ubuntu Server တစ်လုံးပေါ်မှာ Jenkins ကို install လုပ်ပုံကိုလေ့လာလိုက်ကြရအောင်ဗျာ
+</p>
+  
+ 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/thaunggyee/jenkins/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
