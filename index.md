@@ -40,7 +40,9 @@ $ sudo systemctl status jenkins.service
 <p> Jenkins service က active ဖြစ်နေပြီဆိုတော့ jenkins ဟာ localhost ရဲ့ port 8080 မှာ run နေပြီဖြစ်ပါတယ်။ port number 8080 ကို defautl အနေနဲ့သုံးပါတယ်။ ကျွန်တော်တို့ အနေနဲ့ Jenkins portကို ပြောင်းချင်ရင်တော့ /etc/default/jenkins မှာ HTTP_PORT variable ကို မိမိ ပြောင်းမယ့် port ကို ပေးရမှာဖြစ်ပါတယ်။ </p>
 
 <p> ဒီ tutorial မှာတော့ default port 8080ကိုပဲအသုံးပြုပါမယ်။ ဒါကြောင့် မိမိကြိုက်နှစ်သက်ရာ browser ကိုသွားပြီး localhost:8080 ကိုခေါ်လိုက်ပါ။ ဒါဆိုရင် အောက်ပါပုံအတိုင်း Unlock Jenkins Screen ကို တွေ့ရမှာပဲဖြစ်ပါတယ်။</p>
-![Unlock Jenkins](https://assets.digitalocean.com/articles/jenkins-install-ubuntu-1604/unlock-jenkins.png)
+![Unlock Jenkins](https://drive.google.com/file/d/12Hc9ZVpGIcjTTuK4r_O_vJx8qip3Vmc0/view?usp=sharing)
+
+<p> </p>
 
 
 
