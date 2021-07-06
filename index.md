@@ -44,6 +44,7 @@ $ sudo systemctl status jenkins.service
 ![Unlock Jenkins](/assets/unlock.png)
 
 <p> Admin Password ကို အပေါ်ကပုံမှာ ပေးထားတဲ့ file ကို cat command နဲ့ ဖွင့်ရင် သိနိုင်ပါတယ်။ </p>
+
 ```bash
 $ cat /home/thaunghtikeoo/.jenkins/secrets/initialAdminPassword
 ```
