@@ -42,6 +42,12 @@ $ sudo systemctl status jenkins.service
 <p> ဒီ tutorial မှာတော့ default port 8080ကိုပဲအသုံးပြုပါမယ်။ ဒါကြောင့် မိမိကြိုက်နှစ်သက်ရာ browser ကိုသွားပြီး localhost:8080 ကိုခေါ်လိုက်ပါ။ ဒါဆိုရင် အောက်ပါပုံအတိုင်း Unlock Jenkins Screen ကို တွေ့ရမှာပဲဖြစ်ပါတယ်။</p>
 ![Unlock Jenkins](https://github.com/thaungyee/jenkins/assets/unlock.png)
 
+<p> Admin Password ကို အပေါ်ကပုံမှာ ပေးထားတဲ့ file ကို cat command နဲ့ ဖွင့်ရင် သိနိုင်ပါတယ်။ </p>
+```bash
+$ cat /home/thaunghtikeoo/.jenkins/secrets/initialAdminPassword
+```
+
+
 
 
 
