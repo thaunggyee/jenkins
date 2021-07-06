@@ -52,6 +52,10 @@ $ cat /home/thaunghtikeoo/.jenkins/secrets/initialAdminPassword
 
 ![Install Plugins](/assets/plugins.png)
 
+<p> Install suggested Plugins ကိုရွေးပြီး မိနစ်အနည်းငယ်စောင့်ပါ </p>
+
+![getting start](/assets/getting_start.png)
+
 <p> Plugins တွေ install ပြီးတဲ့အခါမှာတော့ အောက်ကပုံထဲကအတိုင်း admin user တစ်ယောက်ကို create လုပ်ပေးရမှာဖြစ်ပါတယ်။ admin user တစ်ယောက် create မလုပ်ချင်ဘူးဆိုရင် skip and continue as admin ကိုနှိပ်ပြီး default admin user အနေနဲ့ Jenkins ကိုအသုံးပြုနိုင်ပါပြီ။ default admin user ရဲ့ username ဟာ admin ဖြစ်ပြီး password  ကတော့ အပေါ်မှာ cat command နဲ့ယူခဲ့တဲ့ initial password ဖြစ်ပါတယ်။</p>
   
 ![Admin User](/assets/create_admin.png)
