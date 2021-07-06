@@ -48,7 +48,7 @@ $ sudo systemctl status jenkins.service
 
 <p> ဒီ tutorial မှာတော့ default port 8080ကိုပဲအသုံးပြုပါမယ်။ ဒါကြောင့် မိမိကြိုက်နှစ်သက်ရာ browser ကိုသွားပြီး localhost:8080 ကိုခေါ်လိုက်ပါ။ ဒါဆိုရင် အောက်ပါပုံအတိုင်း Unlock Jenkins Screen ကို တွေ့ရမှာပဲဖြစ်ပါတယ်။</p>
 
-![Unlock Jenkins](/assets/unlock.png)
+![Unlock Jenkins](https://raw.githubusercontent.com/thaunggyee/jenkins/gh-pages/assets/unlock.png)
 
 <p> Admin Password ကို အပေါ်ကပုံမှာ ပေးထားတဲ့ file ကို cat command နဲ့ ဖွင့်ရင် သိနိုင်ပါတယ်။ </p>
 
@@ -57,27 +57,27 @@ $ cat /home/thaunghtikeoo/.jenkins/secrets/initialAdminPassword
 ```
 <p> ရလာတဲ့ password ကို copy paste လုပ်ပြီး continue ကို နှိပ်လိုက်ပါ။ နောက်တစ်ဆင့်ကတော့ အောက်ကပုံထဲကအတိုင်း plugins တွေ install လုပ်ပေးရမှာဖြစ်ပါတယ်။ default အနေနဲ့ကတော့ Install Suggested Plugins ကို ရွှေးနိုင်ပြီး နောက်ပိုင်းမှ မိမိတို့ လိုအပ်တဲ့ plugins ကို တစ်ခုချင်း install လုပ်နိုင်ပါတယ်။ </p>
 
-![Install Plugins](/assets/plugins.png)
+![Install Plugins](https://raw.githubusercontent.com/thaunggyee/jenkins/gh-pages/assets/plugins.png)
 
 <p> Install suggested Plugins ကိုရွေးပြီး မိနစ်အနည်းငယ်စောင့်ပါ </p>
 
-![getting start](/assets/getting_start.png)
+![getting start](https://raw.githubusercontent.com/thaunggyee/jenkins/gh-pages/assets/getting_start.png)
 
 <p> Plugins တွေ install ပြီးတဲ့အခါမှာတော့ အောက်ကပုံထဲကအတိုင်း admin user တစ်ယောက်ကို create လုပ်ပေးရမှာဖြစ်ပါတယ်။ admin user တစ်ယောက် create မလုပ်ချင်ဘူးဆိုရင် skip and continue as admin ကိုနှိပ်ပြီး default admin user အနေနဲ့ Jenkins ကိုအသုံးပြုနိုင်ပါပြီ။ default admin user ရဲ့ username ဟာ admin ဖြစ်ပြီး password  ကတော့ အပေါ်မှာ cat command နဲ့ယူခဲ့တဲ့ initial password ဖြစ်ပါတယ်။</p>
   
-![Admin User](/assets/create_admin.png)
+![Admin User](https://raw.githubusercontent.com/thaunggyee/jenkins/gh-pages/assets/create_admin.png)
 
 <p> Admin User တစ်ယောက် create ပြီးတဲ့အခါမှာတော့ Jenkins Instance URL ကို သတ်မှတ်ပေးရမှာဖြစ်ပါတယ်။ URL ကို မိမိကြိုက်နှစ်သက်ရာ private server domain တစ်ခု (သို့) Jenkins server ရဲ့ ip address ကိုထည့်ပေးရမှာဖြစ်ပါတယ်။ URL ပေးပြီးသွားရင်တော့ Save and Finish ကိုနှိပ်ပြီး Jenkins Server တစ်ခုကို စတင်အသုံးပြုနိုင်ပါပြီ ခင်ဗျာ။ </p>
 
-![Save_Finish](/assets/save_finish.png)
+![Save_Finish](https://raw.githubusercontent.com/thaunggyee/jenkins/gh-pages/assets/save_finish.png)
   
 <p> Save and Finish ကိုနှိပ်ပြီးတဲ့ အခါမှာတော့ Jenkins is Ready ဆိုပြီး welcome screen ကို တွေ့ရမှာဖြစ်ပါတယ်။ ပြီးရင် Start Using Jenkins ကိုနှိပ်လိုက်ပါ </p>
   
-![Start_Jenkins](/assets/ready.png)
+![Start_Jenkins](https://raw.githubusercontent.com/thaunggyee/jenkins/gh-pages/assets/ready.png)
 
 <p> ဒါဆိုရင် တော့ Jenkins Dashboard ကို တွေ့ရမှာဖြစ်ပြီး Jenkins Server တစ်ခုကို အောင်မြင်စွာ setup လုပ်နိုင်ခဲ့ပါပြီ </p>
 
-![Dashboard](/assets/dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/thaunggyee/jenkins/gh-pages/assets/dashboard.png)
 
 <h2> Conclusion </h2>
 
