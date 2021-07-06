@@ -60,6 +60,13 @@ $ cat /home/thaunghtikeoo/.jenkins/secrets/initialAdminPassword
 
 ![Save_Finish](/assets/save_finish.png)
   
+<p> Save and Finish ကိုနှိပ်ပြီးတဲ့ အခါမှာတော့ Jenkins is Ready ဆိုပြီး welcome screen ကို တွေ့ရမှာဖြစ်ပါတယ်။ ပြီးရင် Start Using Jenkins ကိုနှိပ်လိုက်ပါ </p>
+  
+![Start_Jenkins](/assets/ready.png)
+
+<p> ဒါဆိုရင် တော့ Jenkins Dashboard ကို တွေ့ရမှာဖြစ်ပြီး Jenkins Server တစ်ခုကို အောင်မြင်စွာ setup လုပ်နိုင်ခဲ့ပါပြီ </p>
+
+![Dashboard](/assets/dashboard.png)
 
 
 
