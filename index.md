@@ -46,6 +46,9 @@ $ sudo systemctl status jenkins.service
 ```bash
 $ cat /home/thaunghtikeoo/.jenkins/secrets/initialAdminPassword
 ```
+<p> ရလာတဲ့ password ကို copy paste လုပ်ပြီး continue ကို နှိပ်လိုက်ပါ။ နောက်တစ်ဆင့်ကတော့ အောက်ကပုံထဲကအတိုင်း plugins တွေ install လုပ်ပေးရမှာဖြစ်ပါတယ်။ default အနေနဲ့ကတော့ Install Suggested Plugins ကို ရွှေးနိုင်ပြီး နောက်ပိုင်းမှ မိမိတို့ လိုအပ်တဲ့ plugins ကို တစ်ခုချင်း install လုပ်နိုင်ပါတယ်။ </p>
+![Install Plugins](/assets/plugins.png)
+  
 
 
 
