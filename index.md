@@ -68,6 +68,12 @@ $ cat /home/thaunghtikeoo/.jenkins/secrets/initialAdminPassword
 
 ![Dashboard](/assets/dashboard.png)
 
+<h2> Conclusion </p>
+
+<p> အဆုံးထိ ဖတ်ပေးခဲ့ကြတဲ့ တစ်ဦးတစ်ယောက်ချင်းစီတိုင်းကို ကျေးဇူးတင်ပါတယ် ခင်ဗျာ။ နောက်အပတ်တွေမှာ Jenkins ကို အသုံးပြူပြီး CI CD pipeline တွေနဲ့ automation ပြုလုပ်ပုံတွေကို share ပေးမှာဖြစ်လို့ ဆက်လက် အားပေးကြပါဦး ခင်ဗျာ။ </p>
+
+<p> Thanks for Reading .. </p>
+
 
 
 
