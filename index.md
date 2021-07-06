@@ -52,9 +52,13 @@ $ cat /home/thaunghtikeoo/.jenkins/secrets/initialAdminPassword
 
 ![Install Plugins](/assets/plugins.png)
 
-<p> Plugins တွေ install ပြီးတဲ့အခါမှာတော့ အောက်ကပုံထဲကအတိုင်း admin user တစ်ယောက်ကို create လုပ်ပေးရမှာဖြစ်ပါတယ်။ admin user တစ်ယောက် create မလုပ်ချင်ဘူးဆိုရင် skip and continue as admin ကိုနှိပ်ပြီး default admin user အနေနဲ့ Jenkins ကိုအသုံးပြုနိုင်ပါပြီ။ </p>
+<p> Plugins တွေ install ပြီးတဲ့အခါမှာတော့ အောက်ကပုံထဲကအတိုင်း admin user တစ်ယောက်ကို create လုပ်ပေးရမှာဖြစ်ပါတယ်။ admin user တစ်ယောက် create မလုပ်ချင်ဘူးဆိုရင် skip and continue as admin ကိုနှိပ်ပြီး default admin user အနေနဲ့ Jenkins ကိုအသုံးပြုနိုင်ပါပြီ။ default admin user ရဲ့ username ဟာ admin ဖြစ်ပြီး password  ကတော့ အပေါ်မှာ cat command နဲ့ယူခဲ့တဲ့ initial password ဖြစ်ပါတယ်။</p>
   
 ![Admin User](/assets/create_admin.png)
+
+<p> Admin User တစ်ယောက် create ပြီးတဲ့အခါမှာတော့ Jenkins Instance URL ကို သတ်မှတ်ပေးရမှာဖြစ်ပါတယ်။ URL ကို မိမိကြိုက်နှစ်သက်ရာ private server domain တစ်ခု (သို့) Jenkins server ရဲ့ ip address ကိုထည့်ပေးရမှာဖြစ်ပါတယ်။ URL ပေးပြီးသွားရင်တော့ Save and Finish ကိုနှိပ်ပြီး Jenkins Server တစ်ခုကို စတင်အသုံးပြုနိုင်ပါပြီ ခင်ဗျာ။ </p>
+
+![Save_Finish](/assets/save_finish.png)
   
 
 
